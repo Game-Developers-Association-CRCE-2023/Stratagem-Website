@@ -36,7 +36,7 @@ header .logo, header .logo:hover{
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin: 30% 20%;
+    /* margin: 30% 20%; */
     padding: 0 50% 0 0;
 }
 
@@ -44,10 +44,16 @@ header ul{
     display: flex;
     justify-content: center;
     margin-top: 3%;
-    margin-right: 3%;
-    margin-left: 3%;
+    /* margin-right: 3%; */
+    /* margin-left: 3%; */
     /* text-align: center; */
 }
+
+header img{
+    width: 10% ;
+    /* height: 10%; */
+}
+
 .home, .prize, .rules{
     list-style: none;
     margin-left: 2%;
@@ -62,7 +68,7 @@ header ul li a{
     padding: 5px 11px;
     color: #fff;
     border-radius: 20px;
-    margin: 0 30%;
+    /* margin: 0 30%; */
 }
 header ul li a:hover,
 header ul li a.active
@@ -366,7 +372,7 @@ footer .copy{
     padding-right: 5%;
 }
      .btn-footer {
-                 color: #fff;
+                color: #fff;
               
                 text-decoration: none;
                 border: 1px solid;
